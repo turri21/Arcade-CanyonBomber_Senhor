@@ -2,6 +2,7 @@
 
 Tested: Working Video 720p, 1080p & Sound.
 
+Dev notes: Clocks swapped in sys.tcl
 ___
 # CanyonBomber
 FPGA implementation by james10952001 of Canyon Bomber arcade game released by Kee Games in 1978
