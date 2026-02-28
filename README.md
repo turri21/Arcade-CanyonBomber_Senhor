@@ -1,3 +1,16 @@
+-=(CanyonBomber_Senhor notes)=-
+
+Tested: Working Video 720p, 1080p & Sound.
+
+Dev notes: Using a reworked constraints sdc file for Senhor which fixes the artifacts on zeppelins.
+
+To include the .sdc the following line must be added in files.qip:
+
+set_global_assignment -name SDC_FILE Arcade-CanyonBomber.sdc
+ 
+Clocks swapped in sys.tcl (no longer needed)
+___
+
 # CanyonBomber
 FPGA implementation by james10952001 of Canyon Bomber arcade game released by Kee Games in 1978
 Port to MiSTer by Alan Steremberg
